@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For My Love ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- MUSIC -->
+<audio id="bgm" loop>
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
+
+<!-- LOCK -->
+<div id="lock">
+  <h2>Enter Password 💌</h2>
+  <input type="password" id="pass">
+  <br><br>
+  <button onclick="unlock()">Unlock</button>
+  <p id="error"></p>
+</div>
+
+<!-- MAIN CARD -->
+<div id="card" style="display:none;">
+
+  <h1 id="typing"></h1>
+
+  <div class="page">
+    <p>You are my happiness butter ehhh enaku unna romba romba pudikum di namba eppadiyea irukalam yepovumeaa seriya uuuuuummmmmmmaaahhhhhhhhhhh ❤️</p>
+    <img src="images/pic1.jpg">
+  </div>
+
+  <div class="page">
+    <p>enna nadanthalum seri oru inch angutu ingutu pogama un kuda ya irunthu apo apo konjama unna tension pannitu ethu mari variruuu kulunga sirika vaikuren  💕</p>
+    <img src="images/pic2.jpg">
+  </div>
+
+  <div class="page">
+    <h2>Will you marry me? 💍</h2>
+    <button onclick="yes()">YES ❤️</button>
+    <button onclick="no()">NO 😜</button>
+    <p id="answer"></p>
+    <img src="images/pic3.jpg">
+  </div>
+
+  <br>
+  <button onclick="prev()">⬅</button>
+  <button onclick="next()">➡</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

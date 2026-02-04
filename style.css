@@ -1,0 +1,29 @@
+body {
+    background: pink;
+    text-align: center;
+    font-family: Arial;
+  }
+  
+  img {
+    width: 200px;
+    border-radius: 15px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .heart {
+    position: fixed;
+    bottom: 0;
+    font-size: 20px;
+    animation: float 4s linear;
+  }
+  
+  @keyframes float {
+    from { bottom: 0; opacity: 1; }
+    to { bottom: 100%; opacity: 0; }
+  }
